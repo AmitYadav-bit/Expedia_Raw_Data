@@ -33,18 +33,18 @@ ToolPurposePython 3.13Core scripting languagePlaywrightBrowser automation and ne
 
    CDP solves this by connecting Playwright to your actual installed Chrome browser instead of launching a new one. Expedia sees a genuine Chrome session with a      real user profile, cookies, and browser fingerprint, so it does not trigger bot checks.
 
-pythonbrowser = playwright.chromium.connect_over_cdp("http://localhost:9222")
+   pythonbrowser = playwright.chromium.connect_over_cdp("http://localhost:9222")
 
 
-Anti-Bot Challenges Faced
+    Anti-Bot Challenges Faced
 
-Expedia uses multiple layers of bot protection:
+    Expedia uses multiple layers of bot protection:
 
 
-IP blacklisting based on known datacenter and VPN ranges
-Browser fingerprinting to detect automation tools
-Slider CAPTCHA for suspicious sessions
-DataDome behavioral analysis that tracks scroll speed, mouse movement, and request timing
+   IP blacklisting based on known datacenter and VPN ranges
+   Browser fingerprinting to detect automation tools
+   Slider CAPTCHA for suspicious sessions
+   DataDome behavioral analysis that tracks scroll speed, mouse movement, and request timing
 
 
 # How each was handled:
