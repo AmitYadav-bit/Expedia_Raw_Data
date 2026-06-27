@@ -16,9 +16,13 @@ Dates: July 26, 2026 to July 30, 2026
 Travelers: 1 traveler, 1 room
 Results: 200 properties
 
+# Proxies Used:
 
+- Turbo VPN : Used to not get blocked by the site.
+  
 
 # Tech Stack Used
+
 ToolPurposePython 3.13Core scripting languagePlaywrightBrowser automation and network interceptionChrome DevTools Protocol (CDP)Connect to a real Chrome session to bypass bot detectionGraphQLExpedia's internal API format that returns hotel dataJSONOutput format for raw responsesVPN / Residential ProxyBypass IP-level bot blocking
 
 
